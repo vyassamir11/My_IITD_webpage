@@ -1,0 +1,417 @@
+﻿<!--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+	updated : 29/06/2018
+-->
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
+<head>
+<title>Samir Vyas IITD|IITGN</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="samir vyas iitd iit delhi gandhinagar iitgn iitian" />
+<!-- css -->
+<!-- font-awesome icons -->
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<!-- //font-awesome icons -->
+<link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/style_par.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all" />
+<!-- Default-JavaScript-File -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- //Default-JavaScript-File -->
+<script>
+	function foo(){
+		var s = "This light hearted webpage was made purely for fun purpose.\nIt allows me to introduce myself without contacting you and satisfies your curiosity about me.\nAlso, IIT Delhi gives me some free server space that I don't want to get wasted.\n\nFeel free to contact me on my Facebook if you feel like having a chat with me! :P\n\nPlease click on OK to proceed, Cancel to go back.\nPS : Kindly watch this page on a computer screen if you can. It's not quite mobile freindly and I am done debugging it.";
+		// if(!confirm(s)){
+
+		// }
+		if(!window.confirm(s)){
+			window.history.back();
+		};
+	}
+</script>
+</head>
+
+<body onload="foo()">
+<!--Particles-->
+<div id="particles-js"></div>
+
+<!-- particles script --> 
+<script>
+var count_particles, stats, update;
+// stats = new Stats;
+// stats.setMode(0);
+// stats.domElement.style.position = 'absolute';
+// stats.domElement.style.left = '0px';
+// stats.domElement.style.top = '0px';
+// document.body.appendChild(stats.domElement);
+count_particles = document.querySelector('.js-count-particles');
+update = function() {
+//   stats.begin();
+//   stats.end();
+  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+  }
+  requestAnimationFrame(update);
+};
+requestAnimationFrame(update);
+</script>
+
+<!-- banner -->
+<div class="w3-banner-top" id="home">
+	<!-- <div> -->
+		<div class="w3layouts_menu">
+			<nav class="cd-stretchy-nav edit-content">
+				<a class="cd-nav-trigger" href="#0"> Menu <span aria-hidden="true"></span> </a>
+				<ul>
+					<li><a href="#home" class="scroll"><span>Home</span></a></li>
+					<!-- <li><a href="#about" class="scroll"><span>About</span></a></li> -->
+					<li><a href="#courses" class="scroll"><span>Education</span></a></li>
+					<li><a href="#skills" class="scroll"><span>Skills</span></a></li> 
+					<li><a href="#interests" class="scroll"><span>Interests</span></a></li>
+					<li><a href="#contact" class="scroll"><span>Contact</span></a></li>
+				</ul> 
+				<span aria-hidden="true" class="stretchy-nav-bg"></span>
+			</nav> 
+		</div>
+
+		<div class="w3-banner-grids">
+			<br><br>
+			<div class="col-md-6 col-sm-12 w3-banner-grid-left">
+				<div class="w3-banner-img">
+					<img src="images/ban661.jpg" alt="img" style="opacity: 0.85">
+					<h3 class="test">Samir Vyas</h3>
+					<p class="test" class="myHeader">Software Developer</p>
+				</div>
+			</div>
+			<div class="col-md-6 w3-banner-grid-right">
+				<div class="w3-banner-text">
+					<br><br><br>
+					<h3 class="myHeader">About Me</h3>
+					<br>
+					<p style="font-size : 20px">Welcome to my homepage!</p>
+					<br>
+					<p style="font-size : 16px">
+							I try to be an avid learner, curious coder and a jovial human being. 
+							I am an MTech student in Computer Science and Engineering department at IIT Delhi. I obtained my BTech in Electrical Engineering from IIT Gandhinagar in 2017.
+					</p>
+					</div>
+				<div class=" w3-right-addres-1">
+					<ul class="list-inline">
+							<li class="list-inline-item" style="padding:1em">
+							  <a href="https://www.facebook.com/vyas.samir.11" target = "_blank">
+								<span class="fa-stack fa-lg">
+								  <i class="fa fa-facebook-square" style="font-size:60px;color:#eaa331;"></i>
+								</span>
+							  </a>
+							</li>
+							<li class="list-inline-item" style="padding:2em">
+							  <a href="https://www.linkedin.com/in/samir-vyas-961b1b99/" target="_blank">
+								<span class="fa-stack fa-lg">
+									<i class="fa fa-linkedin" style="font-size:60px;color:#eaa331;"></i>
+								</span>
+							  </a>
+							</li>
+							<!-- no instagram now 
+							<li class="list-inline-item" style="padding:1em">
+							  <a href="https://www.instagram.com/samirvyas_dovahkiin/" target="_blank">
+								<span class="fa-stack fa-lg">
+									<i class="fa fa-instagram" style="font-size:60px;color:#eaa331;"></i>
+								</span>
+							  </a>
+							</li>
+							-->
+						  </ul>
+				</div>
+			</div>
+		</div>
+	<!-- </div> -->
+</div>
+<!-- banner -->
+	
+<!--/ education -->
+<div class="w3-edu-top" id="courses" style="background: url(./images/courses.jpg); background-size: cover">
+	<div class="container">
+		<div class="w3-edu-grids">
+			<div class="col-md-6 w3-edu-grid-left">
+				<div class="w3-edu-grid-header">
+					<h3>Courses</h3>
+				</div>
+				<ul class="fa-ul">
+					<li>
+						<i class="fa-li fa fa-check"></i>Algorithms and Data Structures
+					</li>
+					<li>
+						<i class="fa-li fa fa-check"></i>Machine Learning
+					</li>
+					<li>
+						<i class="fa-li fa fa-check"></i>Computer and Network Security
+					</li>
+					<li>
+						<i class="fa-li fa fa-check"></i>Database Management
+					</li>
+					<li>
+						<i class="fa-li fa fa-check"></i>Computer Networks
+					</li>
+					<li>
+						<i class="fa-li fa fa-check"></i>Artificial Intelligence
+					</li>
+					<li>
+						<i class="fa-li fa fa-check"></i>Computer Architecture
+					</li>
+					<li>
+						<i class="fa-li fa fa-check"></i>Cryptography
+					</li>
+				</ul>
+				<div class="clearfix"></div>		
+			</div>
+			<div class="col-md-6 w3-edu-grid-right">
+				<div class="w3-edu-grid-header">
+					<h3>Education</h3>
+				</div>
+				<div class="col-md-3 w3-edu-info-right1">
+					<h3>2017 - </h3>
+				</div>
+				<div class="col-md-9 w3-edu-info-right2">
+					<h3>IIT Delhi</h3>
+						<h4>MTECH</h4>
+						<h4>Computer Science and Engineering</h4>
+						<p>Placement Coordinator of MCS 17</p>
+						<p>GATE CS 2017 Rank 655 </p>
+						<p>Current CGPA : 8.05</p>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-md-3 w3-edu-info-right1">
+					<h3>2013 - 2017</h3>
+				</div>
+				<div class="col-md-9 w3-edu-info-right2">
+					<h3>IIT Gandhinagar</h3>
+						<h4>BTECH </h4>
+						<h4>Electrical Engineering </h4>
+						<p>Dean's List Awardee for Semester 1, 3, 4, 6 and 7</p>
+						<p>CPI : 8.56</p>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-md-3 w3-edu-info-right1">
+					<h3>2011 - 2013</h3>
+				</div>
+				<div class="col-md-9 w3-edu-info-right2">
+					<h3>GSHEB</h3>
+						<h4>HSC Science</h4>
+						<p>Gujarat Board %ile : 99.93</p>
+						<p>JEE Mains (2013) AIR : 722</p>
+						<p>JEE Advanced (2013) AIR : 2600</p>
+				</div>
+				<div class="clearfix"></div>		
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>	
+</div>
+
+<div class="skills" id="skills">
+	<div class="container">
+	<div class="title-w3ls">
+		<h4>My Skills</h4>
+		</div>
+		<div class="skills-bar">
+		<div class="col-md-6 w3-agile-skills-grid">
+			<section class='bar'>
+				<section class='wrap'>
+					<div class='wrap_right'>
+					  <div class='bar_group'>
+						<div class='bar_group__bar thin' label='Python' show_values='true' tooltip='true' value='98'></div>
+						<div class='bar_group__bar thin' label='C++' show_values='true' tooltip='true' value='80'></div>
+						<div class='bar_group__bar thin' label='Matlab' show_values='true' tooltip='true' value='60'></div>
+						<div class='bar_group__bar thin' label='JavaScript' show_values='true' tooltip='true' value='50'></div>
+						<div class='bar_group__bar thin' label='HTML' show_values='true' tooltip='true' value='90'></div>
+						<div class='bar_group__bar thin' label='Kali' show_values='true' tooltip='true' value='50'></div>
+						<div class='bar_group__bar thin' label='Ubuntu' show_values='true' tooltip='true' value='90'></div>
+						<div class='bar_group__bar thin' label='Android' show_values='true' tooltip='true' value='20'></div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</section>
+			</section>
+		</div>
+		<div class="col-md-6 w3-agile-skills-grid">
+			<section class='bar'>
+				<section class='wrap'>
+					<div class='wrap_right'>
+					  <div class='bar_group'>
+						<div class='bar_group__bar thin' label='Java' show_values='true' tooltip='true' value='90'></div>
+						<div class='bar_group__bar thin' label='SQL' show_values='true' tooltip='true' value='80'></div>
+						<div class='bar_group__bar thin' label='OCaml' show_values='true' tooltip='true' value='60'></div>
+						<div class='bar_group__bar thin' label='Angular' show_values='true' tooltip='true' value='70'></div>
+						<div class='bar_group__bar thin' label='BootStrap' show_values='true' tooltip='true' value='90'></div>
+						<div class='bar_group__bar thin' label='TypeScript' show_values='true' tooltip='true' value='50'></div>	
+						<div class='bar_group__bar thin' label='Windows' show_values='true' tooltip='true' value='100'></div>
+						<div class='bar_group__bar thin' label='MongoDB' show_values='true' tooltip='true' value='20'></div>
+					</div>
+					</div>
+					<div class="clearfix"></div>
+				</section>
+			</section>
+		</div>
+		<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //skills -->
+
+<!-- main-content -->
+	<div class="main-content" style="background: url(./images/interests.jpg); background-size: cover">
+		<!-- gallery -->
+	<div id="interests">
+		<div class="w3-gallery-head">
+			<h3>My Interests</h3>
+		</div>
+		<div class="jumbotron" style="background: rgba(0,0,0,0.5)" id="paragraphs">
+			<p class="align-self-center">
+					
+					I like to watch TV series and movies for entertainment. I used to be a big time gamer but I quit it considering its harm on my productivity. I follow politics, current affairs and also am a finance aficionado. I love dank memes. The danker, the better. 
+			</p>
+			<br>
+			<p>
+					
+					I love to play cricket, badminton and table tennis. I also like to run, swim and hit the gym. I got a yellow belt in Karate because as a child I wanted to be like Jackie Chan but now I value my life too much...
+			</p>
+			<br>
+			<p>
+					
+					I am fluent in Gujarati, Hindi and English. I like to read Urdu poetry which I happen to recite sometimes when I am with my friends and in the right 'mood'.
+			</p>
+			<br>
+			<p>
+					
+					I am always up for anything interesting.
+			</p>
+			<br>
+			<p>
+						
+					Basically, I try to live upto the meaning of my name in Arabic!
+			</p>
+		</div>	
+	</div>
+	<!--//gallery-->
+</div>
+
+
+<!-- footer -->
+	<div class="w3l_footer" id="contact" style="background: url(./images/contact.jpg); background-size: cover">
+		<div class="container">
+			
+			<div class="w3ls_footer_grids">
+				
+				<div class="w3ls_footer_grid">
+					<div class="col-md-6 w3ls_footer_grid_left">
+						<div class="w3ls_footer_grid_leftl">
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+						</div>
+						<div class="w3ls_footer_grid_leftr">
+							<h4>Location</h4>
+							<p>SE2, Kumaon House, IIT Delhi, Hauz Khas, New Delhi</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-6 w3ls_footer_grid_left">
+						<div class="w3ls_footer_grid_leftl">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<div class="w3ls_footer_grid_leftr">
+							<h4>Email</h4>
+							<a href="mailto:vyassamir11@gmail.com" target="_blank">vyassamir11@gmail.com</a>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!-- <div class="col-md-4 w3ls_footer_grid_left">
+						<div class="w3ls_footer_grid_leftl">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+						</div>
+						<div class="w3ls_footer_grid_leftr">
+							<h4>Call Me</h4>
+							<p>(+000) 003 003 0052</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div> -->
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<div class="w3l_footer_pos">
+			<!-- <p>© 2017 C-Resume. All Rights Reserved | Design by <a href="https://w3layouts.com/">W3layouts</a></p> -->
+			<p>Shoutout to <a href="https://w3layouts.com/">W3layouts</a> for providing templates for free.</p>
+		</div>
+	</div>
+<!-- //footer -->
+
+<!-- scripts -->
+<script src="./js/particles.js"></script>
+<script src="js/app.js"></script>
+
+<!-- stats.js -->
+<script src="js/lib/stats.js"></script>
+
+
+
+<script src="js/bars.js"></script>
+<!-- start-smoth-scrolling -->
+<script src="js/SmoothScroll.min.js"></script>
+<!-- text-effect -->
+		<script type="text/javascript" src="js/jquery.transit.js"></script> 
+		<script type="text/javascript" src="js/jquery.textFx.js"></script> 
+		<script type="text/javascript">
+			$(document).ready(function() {
+					$('.test').textFx({
+						type: 'fadeIn',
+						iChar: 100,
+						iAnim: 1000
+					});
+			});
+		</script>
+<!-- //text-effect -->
+<!-- menu-js --> 	
+	<script src="js/modernizr.js"></script>	
+	<script src="js/menu.js"></script>
+<!-- //menu-js --> 	
+
+
+<script type="text/javascript" src="js/move-top.js"></script>
+
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+
+
+</body>
+</html>
